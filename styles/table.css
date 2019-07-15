@@ -1,0 +1,28 @@
+.table-container {
+  width: 100%;
+  margin: 15px;
+}
+
+.table-container .table {
+  margin: 0 auto;
+}
+
+.table-container .table thead tr.bg-red {
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+}
+
+.table-container .table tr {
+  background-color: #d6d8db;
+  font-weight: bold;
+  height: 40px;
+}
+
+.table-container .table tr th,
+.table-container .table tr td {
+  border: 0.8px solid gray;
+  padding: 10px 20px;
+  vertical-align: middle;
+}
+
