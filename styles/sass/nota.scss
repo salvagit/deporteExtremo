@@ -1,71 +1,65 @@
 @import 'variables.scss';
-
 @mixin border-radius($radius) {
-	border-radius: $radius;
-	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
 }
 
 .radius {
-  @include border-radius(10px)
+    @include border-radius(10px)
 }
 
 .nota {
-  margin-top: $margin;
+    margin-top: $margin;
 }
 
 .nota-image-container,
 .text-container {
-  margin: 0;
-  margin-left: $margin;
-  display: inline-block;
-  max-height: 100%;
+    margin: 0;
+    margin-left: $margin;
+    display: inline-block;
+    max-height: 100%;
 }
 
 .nota-image-container,
 .nota-image-container img {
-  width: $image-width;
+    width: $image-width;
 }
 
 .text-container {
-  float: right;
-  width: calc(100% - ($margin * 2) - $image-width);
-
-  &__title {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 20px;
-  }
-
-  &__author {
-    display: block;
-    margin-bottom: $margin;
-  }
-
-  &__description {
-    /* font-size: 20px; */
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-    &::first-letter {
-      font-size: 18px;
-      font-weight: bold;
+    float: right;
+    width: calc(100% - ($margin * 2) - $image-width);
+    &__title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
     }
-  }
+    &__author {
+        display: block;
+        margin-bottom: $margin;
+    }
+    &__description {
+        /* font-size: 20px; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &::first-letter {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .nota-image-container {
-    img {
-      width: 100%;
-      margin: 0;
+    .nota-image-container {
+        img {
+            width: 100%;
+            margin: 0;
+        }
     }
-  }
-
-  .nota-image-container,
-  .text-container {
-    margin: auto 0;
-    display: block;
-    width: 100%;
-  }
+    .nota-image-container,
+    .text-container {
+        margin: auto 0;
+        display: block;
+        width: 100%;
+    }
 }
