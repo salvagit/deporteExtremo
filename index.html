@@ -7,11 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/css/styles.css" />
     <link rel="stylesheet" href="./styles/css/nota.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-    />
+    <link rel="stylesheet" href="./styles/css/slider.css" />
+    <script type="text/javascript" src="./js/slider.js"></script>
   </head>
+
   <body>
     <main>
       <header class="header">
@@ -35,22 +34,92 @@
         </nav>
       </header>
 
-      <figure class="image-container">
-        <img src="./images/juegos-olimpicos.jpg" alt="" />
-        <figcaption>
-          Paris y Los Ángeles serán las próximas sedes de los Juegos Olímpicos
-        </figcaption>
-      </figure>
+      <div class="slider">
+        <input
+          type="radio"
+          id="slide1"
+          name="slider"
+          title="slide1"
+          checked="checked"
+          class="slider__nav"
+        />
+        <input
+          type="radio"
+          id="slide2"
+          name="slider"
+          title="slide2"
+          class="slider__nav"
+        />
+        <input
+          type="radio"
+          id="slide3"
+          name="slider"
+          title="slide3"
+          class="slider__nav"
+        />
+        <input
+          type="radio"
+          id="slide4"
+          name="slider"
+          title="slide4"
+          class="slider__nav"
+        />
+
+        <div class="slider__inner">
+          <div class="slider__contents">
+            <figure class="image-container">
+              <img src="./images/juegos-olimpicos.jpg" alt="" />
+              <figcaption>
+                Paris y Los Ángeles serán las próximas sedes de los Juegos
+                Olímpicos
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="slider__contents">
+            <figure class="image-container">
+              <img src="./images/juegos-olimpicos.jpg" alt="" />
+              <figcaption>
+                Paris y Los Ángeles serán las próximas sedes de los Juegos
+                Olímpicos
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="slider__contents">
+            <figure class="image-container">
+              <img src="./images/juegos-olimpicos.jpg" alt="" />
+              <figcaption>
+                Paris y Los Ángeles serán las próximas sedes de los Juegos
+                Olímpicos
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="slider__contents">
+            <figure class="image-container">
+              <img src="./images/juegos-olimpicos.jpg" alt="" />
+              <figcaption>
+                Paris y Los Ángeles serán las próximas sedes de los Juegos
+                Olímpicos
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
 
       <section class="nota-container">
         <div class="nota">
           <figure class="nota-image-container">
-            <a href="./notafutbol.html" target="_blank"><img src="./images/copa_america.webp" alt="copa_america"/></a> 
+            <a href="./notafutbol.html">
+              <img src="./images/copa_america.webp" alt="burruchaga" />
+            </a>
           </figure>
           <div class="text-container">
             <header>
               <h1 class="text-container__title">
-                “No le teme a nada salvo a su madre”
+                Román Burruchaga, con paso firme en Wimbledon y acompañado por
+                su papá campeón del mundo
               </h1>
             </header>
             <small class="text-container__author">
@@ -59,7 +128,10 @@
               >
             </small>
             <p class="text-container__description">
-              El autor de la biografía de Gary Medel cuenta la especial relación que tiene con su mamá: “Lo retó por su roja con Messi”. Y revela historias increíbles, como cuando a los 14 años lo apuntaron con un revólver en un partido y él lo enfrentó. “Disparame”, le dijo.
+              El autor de la biografía de Gary Medel cuenta la especial relación
+              que tiene con su mamá: “Lo retó por su roja con Messi”. Y revela
+              historias increíbles, como cuando a los 14 años lo apuntaron con
+              un revólver en un partido y él lo enfrentó. “Disparame”, le dijo.
             </p>
           </div>
         </div>
