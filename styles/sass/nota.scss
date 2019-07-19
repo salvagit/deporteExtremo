@@ -10,7 +10,8 @@
 }
 
 .nota {
-    margin-top: $margin;
+  display: flex;
+  margin-top: $margin;
 }
 
 .nota-image-container,
