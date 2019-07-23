@@ -12,6 +12,10 @@
 .nota {
   display: flex;
   margin-top: $margin;
+
+  @media screen and (max-width:768px) and (orientation: portrait) {
+    flex-direction: column;
+  }
 }
 
 .nota-image-container,
