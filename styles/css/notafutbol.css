@@ -1,13 +1,12 @@
 .notafutbol h1 {
   font-size: 60px;
   color: #333;
-  font-family: "Anton", sans-serif;
+  font-family: 'Anton',sans-serif;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  width: 60%;
-}
+  width: 60%; }
 
 .notafutbol p {
   display: flex;
@@ -15,21 +14,18 @@
   margin-right: auto;
   justify-content: center;
   width: 60%;
-  font-size: 19px;
-}
+  font-size: 19px; }
 
 .notafutbol img {
   width: 60%;
   display: flex;
   justify-content: center;
-  margin: auto;
-}
+  margin: auto; }
 
 .notafutbol figcaption {
   width: 60%;
   display: flex;
   justify-content: center;
-  margin: auto;
-}
+  margin: auto; }
 
 /*# sourceMappingURL=notafutbol.css.map */
