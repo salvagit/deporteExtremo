@@ -1,75 +1,59 @@
 :root {
-  --bg-dark: #343a40;
-}
+  --bg-dark: #343a40; }
 
 body {
-  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .header {
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: var(--bg-dark);
   color: #fff;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .logo-container {
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 .logo-container img {
-  width: 80px;
-}
+  width: 80px; }
 
 .logo-container figcaption h1 {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .header_menu li {
-  display: inline;
-}
+  display: inline; }
 
 .header_menu li a {
   color: #fff;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .header_menu li a:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .image-container {
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .image-container img {
-  width: 100%;
-}
+  width: 100%; }
 
 .image-container figcaption {
   background-color: var(--bg-dark);
   padding: 20px;
   margin: 0;
   color: white;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .footer {
   background-color: var(--bg-dark);
   color: #fff;
   text-align: center;
   padding: 10px;
-  clear: both;
-}
+  clear: both; }
 
 @media screen and (max-width: 768px) {
   .image-container img {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

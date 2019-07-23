@@ -2,17 +2,14 @@
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  align-content: center;
-}
+  align-content: center; }
 
 .nota-image-container, .nota-image-container img {
-  width: 300px;
-}
+  width: 300px; }
 
 .column_left {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 /*# sourceMappingURL=section.css.map */

@@ -49,7 +49,8 @@ body {
   background-color: var(--bg-dark);
   color: #fff;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  clear: both; }
 
 @media screen and (max-width: 768px) {
   .image-container img {

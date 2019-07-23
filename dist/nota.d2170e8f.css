@@ -4,7 +4,7 @@
   -moz-border-radius: 10px; }
 
 .nota {
- 
+  display: flex;
   margin-top: 10px; }
 
 .nota-image-container,

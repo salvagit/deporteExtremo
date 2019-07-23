@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../sass/section.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;;;AAED;EACC;;;AAGJ;EACI;EACA;EACA","file":"section.css"}
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACV,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,aAAa,EAAE,MAAM;;AAEtB,gDAAiD;EAChD,KAAK,EAAE,KAAK;;AAGhB,YAAa;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,YAAY",
+"sources": ["../sass/section.scss"],
+"names": [],
+"file": "section.css"
+}
