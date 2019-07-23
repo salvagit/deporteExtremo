@@ -1,0 +1,15 @@
+.nota_section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+   }
+   .nota-image-container, .nota-image-container img {
+    width: 300px;
+}
+
+.column_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   }
