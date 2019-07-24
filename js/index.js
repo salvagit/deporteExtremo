@@ -1,5 +1,5 @@
 // guardamos ruta de la imagen en una variable
-var notaImage = "/copa_america.662e4e32.webp";
+var notaImage = document.querySelector(".nota").querySelector("img").src;
 
 // obtenemos nuestro template
 var NotaTpl = document.getElementById("NotaTpl");
